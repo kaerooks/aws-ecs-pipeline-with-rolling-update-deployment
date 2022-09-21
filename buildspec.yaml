@@ -3,10 +3,10 @@ version: 0.2
 
 env:
   variables:
-    AWS_REGION: us-east-1
-    AWS_ACCOUNT_ID: 708995052028
-    IMAGE_NAME: aws-pipeline-with-ecs-rolling-update-deployment-image
-    CONTAINER_NAME: ecs-rolling-update-container
+    AWS_REGION: ap-southeast-1
+    AWS_ACCOUNT_ID: 735152622280
+    IMAGE_NAME: sample-aws-pipeline-with-ecs-rolling-update-deployment-image
+    CONTAINER_NAME: sample-ecs-container
 
 
 phases:
