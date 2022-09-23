@@ -26,7 +26,6 @@ phases:
       - timeout 15 sh -c "until docker info; do echo .; sleep 1; done"
       - echo Logging in to Amazon ECR...
       - aws ecr get-login-password --region $AWS_REGION | docker login --username AWS --password-stdin $AWS_ACCOUNT_ID.dkr.ecr.$AWS_REGION.amazonaws.com
-      - eval $(aws ecr get-login --region ap-southeast-1 --no-include-email | sed 's|https://||')
         
   build:
     commands:
