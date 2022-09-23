@@ -87,7 +87,7 @@ function getPage(message) {
     + "  <div class=\"middle\">\n"
     + "    <h1>Sample ECS Container using CI/CD Pipelines</h1>\n"
     + "    <hr>\n"
-    + "    <p>" + OS.hostname() + "</p>\n"
+    + "    <p>Neil Pogi: " + OS.hostname() + "</p>\n"
     + "  </div>\n"
     + "  <div class=\"bottomleft\">\n"
     + "    <p>" + message + "</p>\n"
